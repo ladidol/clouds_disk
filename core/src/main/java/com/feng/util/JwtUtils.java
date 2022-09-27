@@ -14,10 +14,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @author Pymjl
- * @date 2022/1/19 21:49
- */
+
 @Component
 public class JwtUtils {
     private static long tokenExpiredTime;

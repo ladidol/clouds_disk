@@ -6,10 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-/**
- * @author Pymjl
- * @date 2022/1/14 0:28
- */
+
 @Service
 public interface RedisUtil {
 

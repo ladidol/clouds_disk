@@ -1,8 +1,9 @@
 package com.feng.handler;
 
-import cuit.pymjl.exception.AppException;
-import cuit.pymjl.result.Result;
-import cuit.pymjl.result.ResultUtil;
+
+import com.feng.exception.AppException;
+import com.feng.result.Result;
+import com.feng.result.ResultUtil;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.dao.DuplicateKeyException;
 import org.springframework.validation.BindException;
@@ -15,11 +16,7 @@ import javax.validation.ConstraintViolation;
 import javax.validation.ConstraintViolationException;
 import java.util.Set;
 
-/**
- * @author Pymjl
- * @version 1.0
- * @date 2022/4/29 11:07
- **/
+
 @RestControllerAdvice
 @Log4j2
 public class GlobalExceptionHandler {

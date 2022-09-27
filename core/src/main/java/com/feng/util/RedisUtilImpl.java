@@ -9,10 +9,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
-/**
- * @author Pymjl
- * @date 202w/1/14 0:30
- */
+
 @Service
 public class RedisUtilImpl implements RedisUtil {
 

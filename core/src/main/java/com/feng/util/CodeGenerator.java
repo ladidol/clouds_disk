@@ -9,16 +9,12 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * @author Pymjl
- * @version 1.0
- * @date 2022/4/28 19:16
- **/
+//代码生成器
 public class CodeGenerator {
-    private final static String URL = "jdbc:mysql://106.12.167.1:3309/cloud_disk?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8&allowPublicKeyRetrieval=true";
-    private final static String USER_NAME = "epoch";
-    private final static String PASSWORD = "yWtNp6TT4dfbPBrW";
-    private final static String OUT_PUT_DIR = "C:\\Users\\Admin\\JavaProjects\\cloud-disk\\src\\main\\java";
+    private final static String URL = "jdbc:mysql://47.108.188.92:4406/cloud_disk?serverTimezone=Asia/Shanghai&allowMultiQueries=true";
+    private final static String USER_NAME = "账号";
+    private final static String PASSWORD = "密码";
+    private final static String OUT_PUT_DIR = "E:\\Java\\ladidol\\jwtlogin\\core\\src\\main\\java";//项目根路径。
 
     public static void main(String[] args) {
         FastAutoGenerator.create(URL, USER_NAME, PASSWORD)
