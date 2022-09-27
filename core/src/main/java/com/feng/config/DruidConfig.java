@@ -11,7 +11,11 @@ import org.springframework.context.annotation.Configuration;
 
 import javax.sql.DataSource;
 
-
+/**
+ * @author: ladidol
+ * @date: 2022/9/27 23:13
+ * @description:
+ */
 @Configuration
 @SuppressWarnings("all")
 public class DruidConfig {

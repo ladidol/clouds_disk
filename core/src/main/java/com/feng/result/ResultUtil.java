@@ -3,7 +3,11 @@ package com.feng.result;
 
 import com.feng.constant.ResultEnum;
 
-
+/**
+ * @author: ladidol
+ * @date: 2022/9/27 23:13
+ * @description:
+ */
 public class ResultUtil {
     public static Result<String> success() {
         return new Result<>(ResultEnum.OK);

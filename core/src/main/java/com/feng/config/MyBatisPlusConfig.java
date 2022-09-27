@@ -7,7 +7,11 @@ import com.baomidou.mybatisplus.extension.plugins.inner.PaginationInnerIntercept
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-
+/**
+ * @author: ladidol
+ * @date: 2022/9/27 23:13
+ * @description:
+ */
 @Configuration
 public class MyBatisPlusConfig {
     /**

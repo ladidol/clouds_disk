@@ -5,7 +5,11 @@ import com.feng.constant.ResultEnum;
 
 import java.io.Serializable;
 
-
+/**
+ * @author: ladidol
+ * @date: 2022/9/27 23:13
+ * @description:
+ */
 public class Result<T> implements Serializable {
     private T result;
     private Boolean succeed;

@@ -14,7 +14,11 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-
+/**
+ * @author: ladidol
+ * @date: 2022/9/27 23:13
+ * @description:
+ */
 @Component
 public class JwtUtils {
     private static long tokenExpiredTime;

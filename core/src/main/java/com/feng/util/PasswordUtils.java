@@ -3,7 +3,11 @@ package com.feng.util;
 import cn.hutool.crypto.SmUtil;
 import com.feng.exception.AppException;
 
-
+/**
+ * @author: ladidol
+ * @date: 2022/9/27 23:13
+ * @description:
+ */
 public class PasswordUtils {
     /**
      * 盐,给密码加盐，进行哈希散列加密，加密后的密码不可逆

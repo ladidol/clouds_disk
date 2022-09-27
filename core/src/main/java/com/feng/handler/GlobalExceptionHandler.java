@@ -16,7 +16,11 @@ import javax.validation.ConstraintViolation;
 import javax.validation.ConstraintViolationException;
 import java.util.Set;
 
-
+/**
+ * @author: ladidol
+ * @date: 2022/9/27 23:13
+ * @description:
+ */
 @RestControllerAdvice
 @Log4j2
 public class GlobalExceptionHandler {

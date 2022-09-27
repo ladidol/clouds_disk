@@ -1,6 +1,10 @@
 package com.feng.constant;
 
-
+/**
+ * @author: ladidol
+ * @date: 2022/9/27 23:13
+ * @description:
+ */
 public enum StringEnum {
     /**
      * 用户默认头像

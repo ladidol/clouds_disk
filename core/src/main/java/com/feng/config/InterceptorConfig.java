@@ -5,7 +5,11 @@
 //import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 //import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
 //
-//
+///**
+// * @author: ladidol
+// * @date: 2022/9/27 23:13
+// * @description:
+// */
 //@Configuration
 //public class InterceptorConfig extends WebMvcConfigurationSupport {
 //    private final TokenInterceptor tokenInterceptor;

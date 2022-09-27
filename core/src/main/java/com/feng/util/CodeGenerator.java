@@ -9,6 +9,11 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * @author: ladidol
+ * @date: 2022/9/27 23:13
+ * @description:
+ */
 //代码生成器
 public class CodeGenerator {
     private final static String URL = "jdbc:mysql://47.108.188.92:4406/cloud_disk?serverTimezone=Asia/Shanghai&allowMultiQueries=true";

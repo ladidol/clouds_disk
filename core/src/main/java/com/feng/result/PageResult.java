@@ -9,6 +9,11 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
+/**
+ * @author: ladidol
+ * @date: 2022/9/27 23:13
+ * @description:
+ */
 public class PageResult<T> implements Iterable<T>, Serializable {
     private static final long serialVersionUID = -3720998571176536865L;
 

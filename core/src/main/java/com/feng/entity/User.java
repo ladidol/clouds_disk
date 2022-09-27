@@ -6,7 +6,11 @@ import lombok.*;
 import java.io.Serializable;
 import java.util.Date;
 
-
+/**
+ * @author: ladidol
+ * @date: 2022/9/27 23:13
+ * @description:
+ */
 @Getter
 @Setter
 @ToString

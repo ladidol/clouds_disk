@@ -9,6 +9,11 @@ import com.feng.entity.dto.UserDTO;
 import com.feng.entity.dto.UserInfoDTO;
 import org.springframework.web.multipart.MultipartFile;
 
+/**
+ * @author: ladidol
+ * @date: 2022/9/27 23:13
+ * @description:
+ */
 public interface UserService extends IService<User> {
 
     /**

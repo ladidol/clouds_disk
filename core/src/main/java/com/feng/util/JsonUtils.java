@@ -10,7 +10,11 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
-
+/**
+ * @author: ladidol
+ * @date: 2022/9/27 23:13
+ * @description:
+ */
 public class JsonUtils {
 
     public static final ObjectMapper mapper = new ObjectMapper();

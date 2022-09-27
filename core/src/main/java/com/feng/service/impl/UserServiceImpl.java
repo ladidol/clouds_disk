@@ -33,7 +33,11 @@ import java.util.Date;
 import java.util.List;
 import java.util.Random;
 
-
+/**
+ * @author: ladidol
+ * @date: 2022/9/27 23:13
+ * @description:
+ */
 @Service
 @Log4j2
 public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements UserService {

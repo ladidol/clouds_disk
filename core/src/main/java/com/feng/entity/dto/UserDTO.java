@@ -10,7 +10,11 @@ import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 
 
-
+/**
+ * @author: ladidol
+ * @date: 2022/9/27 23:13
+ * @description:
+ */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

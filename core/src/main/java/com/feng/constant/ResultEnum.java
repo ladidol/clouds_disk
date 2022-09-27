@@ -2,7 +2,11 @@ package com.feng.constant;
 
 import lombok.experimental.Accessors;
 
-
+/**
+ * @author: ladidol
+ * @date: 2022/9/27 23:13
+ * @description:
+ */
 @Accessors(chain = true)
 public enum ResultEnum {
 

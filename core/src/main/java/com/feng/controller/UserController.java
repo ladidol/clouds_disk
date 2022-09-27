@@ -18,16 +18,12 @@ import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import java.io.IOException;
 
-/**
- * @projectName: jwtlogin
- * @package: com.feng.controller
- * @className: UserController
- * @author: Ladidol
- * @description:
- * @date: 2022/9/27 21:09
- * @version: 1.0
- */
 
+/**
+ * @author: ladidol
+ * @date: 2022/9/27 23:13
+ * @description:
+ */
 @RestController
 @Validated
 public class UserController {

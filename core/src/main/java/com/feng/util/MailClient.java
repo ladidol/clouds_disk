@@ -12,9 +12,9 @@ import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
 
 /**
- * @Auther: ladidol
- * @Date: 2022年9月27日21:55:50
- * @Description: 邮件发送客户端
+ * @author: ladidol
+ * @date: 2022/9/27 23:13
+ * @description: 邮件发送客户端
  */
 @Component
 public class MailClient {
