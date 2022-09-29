@@ -24,4 +24,9 @@ public class HelloController {
         System.out.println("nihao = " + new Date(System.currentTimeMillis()));
         return "hello, now is "+ new Date(System.currentTimeMillis());
     }
+    @GetMapping("/admin")
+    public String helloAdmin() {
+        System.out.println("nihao = " + new Date(System.currentTimeMillis()));
+        return "hello admin, now is "+ new Date(System.currentTimeMillis());
+    }
 }

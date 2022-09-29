@@ -7,6 +7,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 import com.feng.entity.User;
 import com.feng.entity.dto.UserDTO;
 import com.feng.entity.dto.UserInfoDTO;
+import com.feng.entity.vo.UserVO;
 import org.springframework.web.multipart.MultipartFile;
 
 /**
@@ -64,7 +65,7 @@ public interface UserService extends IService<User> {
      * @param id id
      * @return {@code UserVO}
      */
-//    UserVO queryUserById(Long id);
+    UserVO queryUserById(Long id);
 
     /**
      * 更新头像

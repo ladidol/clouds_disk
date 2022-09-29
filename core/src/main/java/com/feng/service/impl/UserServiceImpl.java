@@ -15,6 +15,7 @@ import com.feng.constant.StringEnum;
 import com.feng.entity.User;
 import com.feng.entity.dto.UserDTO;
 import com.feng.entity.dto.UserInfoDTO;
+import com.feng.entity.vo.UserVO;
 import com.feng.exception.AppException;
 import com.feng.mapper.UserMapper;
 import com.feng.service.UserService;
@@ -177,16 +178,17 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         return result == 1;
     }
 
-//    @Override
-//    public UserVO queryUserById(Long id) {
-//        LambdaQueryWrapper<User> wrapper = new LambdaQueryWrapper<User>()
-//                .eq(User::getId, id);
-//        User user = baseMapper.selectOne(wrapper);
-//        UserVO userVO = new UserVO();
-//        BeanUtil.copyProperties(user, userVO);
+    @Override
+    public UserVO queryUserById(Long id) {
+        LambdaQueryWrapper<User> wrapper = new LambdaQueryWrapper<User>()
+                .eq(User::getId, id);
+        User user = baseMapper.selectOne(wrapper);
+        UserVO userVO = new UserVO();
+        BeanUtil.copyProperties(user, userVO);
+        // TODO: 2022/9/29 这里调用aliyun工具类主要是为了干啥哦。 
 //        userVO.setAvatar(AliyunUtils.findFileInfo(user.getAvatar()).getLink());
-//        return userVO;
-//    }
+        return userVO;
+    }
 
 //    @Override
 //    public String updateAvatar(Long id, MultipartFile file) {
