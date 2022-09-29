@@ -46,8 +46,10 @@ public class FileController {
         return ResultUtil.success();
     }
 
-    // TODO: 2022/9/29 把文件夹创建查询在弄清楚一下。 
-
+    // TODO: 2022/9/29 把文件夹创建查询在弄清楚一下。
+    // todo 迷惑的地方：`@Validated  //多少还是有点迷惑@Validated有啥子用。`
+    // todo 检查一下token过期时间在本系统中到底是由谁来控制的。
+    // todo 看一下能不能再建一个云盘仓库（用到这个jwtlogin登录），原来的jwtlogin就是纯纯的login仓库。
 
 
 
