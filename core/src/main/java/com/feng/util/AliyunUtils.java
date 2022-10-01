@@ -58,16 +58,16 @@ public class AliyunUtils {
     /**
      * RAM账户ARM信息
      */
-    private static final String ROLE_ARN = "xxxxxxxxxx";
+    private static final String ROLE_ARN = "acs:ram::1547839587590636:role/test2";
     /**
      * STS接入地址，例如sts.cn-hangzhou.aliyuncs.com。
      */
-    private static final String STS_ENDPOINT = "sts.cn-shanghai.aliyuncs.com";
+    private static final String STS_ENDPOINT = "sts.cn-chengdu.aliyuncs.com";
 
     /**
      * regionId表示RAM的地域ID。以华东1（杭州）地域为例，regionID填写为cn-hangzhou。也可以保留默认值，默认值为空字符串（""）。
      */
-    private static final String REGION_ID = "cn-shanghai";
+    private static final String REGION_ID = "cn-chengdu";
 
     /**
      * 签名直传时设置最大文件大小，单位MB
@@ -596,20 +596,20 @@ public class AliyunUtils {
         String roleSessionName = "FileService";
         // 以下Policy用于限制仅允许使用临时访问凭证向目标存储空间examplebucket上传文件。
         // 临时访问凭证最后获得的权限是步骤4设置的角色权限和该Policy设置权限的交集，即仅允许将文件上传至目标存储空间examplebucket下的exampledir目录。
-//        String policy = "{\n" +
-//                "    \"Version\": \"1\", \n" +
-//                "    \"Statement\": [\n" +
-//                "        {\n" +
-//                "            \"Action\": [\n" +
-//                "                \"oss:PutObject\"\n" +
-//                "            ], \n" +
-//                "            \"Resource\": [\n" +
-//                "                \"acs:oss:*:*:examplebucket/*\" \n" +
-//                "            ], \n" +
-//                "            \"Effect\": \"Allow\"\n" +
-//                "        }\n" +
-//                "    ]\n" +
-//                "}";
+        String policy = "{\n" +
+                "    \"Version\": \"1\", \n" +
+                "    \"Statement\": [\n" +
+                "        {\n" +
+                "            \"Action\": [\n" +
+                "                \"oss:PutObject\"\n" +
+                "            ], \n" +
+                "            \"Resource\": [\n" +
+                "                \"acs:oss:*:*:examplebucket/*\" \n" +
+                "            ], \n" +
+                "            \"Effect\": \"Allow\"\n" +
+                "        }\n" +
+                "    ]\n" +
+                "}";
         try {
             //
             // 添加sts-endpoint。适用于Java SDK 3.12.0及以上版本。
